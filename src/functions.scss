@@ -1,0 +1,20 @@
+@function pix-rem($value, $suffix: rem) {
+  $calculated: calc($value/16);
+  @return #{$calculated}#{$suffix};
+}
+
+/**
+  Example usage: 
+  body {
+    @include mediaQuery(1200px) {
+      background-color: red
+    }
+  }
+
+  This changes the body color to red at any screensize below 1200px
+*/
+@mixin mediaQuery($value) {
+  @media (max-width: $value) {
+    @content;
+  }
+}
