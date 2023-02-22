@@ -47,6 +47,7 @@ export const AppContextProvider = ({ children }) => {
       value={{
         theme,
         toggleTheme,
+        test,
       }}
     >
       {children}
