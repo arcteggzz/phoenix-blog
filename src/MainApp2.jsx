@@ -9,7 +9,7 @@ const MainApp = () => {
   return (
     <>
       <div
-        className={`w-screen max-w-full flex flex-col items-center min-h-screen ${
+        className={`flex flex-col items-center min-h-screen overflow-x-hidden	${
           theme === "dark" ? `bg-bgDark` : `bg-bgWhite`
         }`}
       >

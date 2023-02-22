@@ -2,6 +2,10 @@
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    fontFamily: {
+      gupter: "Gupter, serif",
+      ptSans: "PT Sans, sans-serif",
+    },
     // screens: {
     //   sm: { max: "767px", min: "320px" },
     //   md: { max: "1023px", min: "768px" },
