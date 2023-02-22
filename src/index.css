@@ -1,14 +1,10 @@
-:root {
-  font-family: "Poppins", sans-serif;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
+@import url("https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=PT+Sans:wght@400;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
-/*# sourceMappingURL=index.css.map */
