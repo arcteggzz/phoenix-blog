@@ -41,13 +41,15 @@ const MainApp = () => {
   return (
     <>
       <div
-        className={`flex flex-col items-center min-h-screen overflow-x-hidden	${
+        className={`flex flex-col min-h-screen overflow-x-hidden	${
           theme === "dark" ? `bg-bgDark` : `bg-bgWhite`
         }`}
       >
         <NavBar />
         <HeroSection />
-        <PhoenixBlog />
+        <div className="flex flex-col items-center">
+          <PhoenixBlog />
+        </div>
         <div className="flex flex-col w-full items-center justify-center">
           <PhoenixFeature features={featuresData[0]} />
           <PhoenixFeature features={featuresData[1]} />
