@@ -13,7 +13,7 @@ const NavBar = () => {
   return (
     <>
       <nav
-        className={`fixed flex items-center justify-between lg:h-[120px] md:h-[96px] sm:h-[72px] lg:px-[112px] md:px-[80px] sm:px-[24px] w-screen shadow-custom z-10 ${
+        className={`fixed top-0 left-0 flex items-center justify-between lg:h-[120px] md:h-[96px] sm:h-[72px] lg:px-[112px] md:px-[80px] sm:px-[24px] w-screen shadow-custom z-10 ${
           theme === "dark"
             ? `bg-gradient-to-r from-[rgba(2,20,40)] to-[rgba(0,0,0)]`
             : `bg-bgWhite`

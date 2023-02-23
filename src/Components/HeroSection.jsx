@@ -8,7 +8,7 @@ const HeroSection = () => {
 
   return (
     <>
-      <div className="lg:pl-[112px] md:pl-[80px] sm:px-[24px] py-[64px] flex md:flex-row sm:flex-col md:justify-between lg:pt-[120px] md:pt-[96px] sm:pt-[72px]">
+      <div className="lg:pl-[112px] md:pl-[80px] lg:pr-0 md:pr-0 sm:px-[24px] py-[64px] flex md:flex-row sm:flex-col md:justify-between lg:pt-[120px] md:pt-[96px] sm:pt-[144px]">
         {/* left */}
         <section className="md:text-left sm:text-center lg:pt-[110px] md:pt-[80px] sm:pt-[10px]">
           <h1
@@ -23,7 +23,7 @@ const HeroSection = () => {
             writing online. As a secured and open-source writing platform, it
             helps iilluminate your web3 journey with stories and experiences.
           </h2>
-          <button className="md:px-[56px] sm:px-[32px] md:py-[22px] sm:py-[18px] bg-primary rounded-[8px] text-bgWhite mt-[40px] font-bold font-ptSans">
+          <button className="md:px-[56px] sm:px-[28px] md:py-[22px] sm:py-[14px] bg-primary rounded-[8px] text-bgWhite mt-[40px] font-bold font-ptSans">
             Get Started
           </button>
         </section>
