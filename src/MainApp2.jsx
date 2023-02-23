@@ -3,6 +3,8 @@ import NavBar from "./Components/Navbar";
 import HeroSection from "./Components/HeroSection";
 import PhoenixBlog from "./Components/PhoenixBlog";
 import PhoenixFeature from "./Components/PhoenixFeature";
+import ContactUs from "./Components/ContactUs";
+import Footer from "./Components/Footer";
 import { ThemeContext } from "./App";
 
 import section3A2 from "./assets/images/section3A2.png";
@@ -56,6 +58,8 @@ const MainApp = () => {
           <PhoenixFeature features={featuresData[1]} />
           <PhoenixFeature features={featuresData[2]} />
         </div>
+        <ContactUs />
+        <Footer />
       </div>
     </>
   );
