@@ -8,6 +8,7 @@ import { ThemeContext } from "./App";
 import section3A2 from "./assets/images/section3A2.png";
 import section3B2 from "./assets/images/section3B2.png";
 import section3C from "./assets/images/section3C.png";
+import test1 from "./assets/images/test1.png";
 
 const MainApp = () => {
   const theme = useContext(ThemeContext);
@@ -18,7 +19,7 @@ const MainApp = () => {
       paragraphText:
         "Get the chance to save the writings of your favorite writers, sign up for their newsletters, and follow other individuals who share your interests. Personalize your feeds, collaborate with friends onmaterial, and learn more about various topics.",
       buttonText: "Read Articles",
-      image: section3A2,
+      image: test1,
     },
     {
       order: 1,

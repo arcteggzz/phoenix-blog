@@ -18,7 +18,7 @@ const HeroSection = () => {
           >
             A hub for <span className="text-primary">Web3</span> Publishing.
           </h1>
-          <h2 className="text-subtleGrey font-normal lg:text-[24px] md:text-[22px] sm:text-[18px] mt-[24px] lg:w-[627px] md:w-[420px] lg:leading-[50px] md:leading-[30px]">
+          <h2 className="text-subtleGrey font-normal lg:text-[24px] md:text-[22px] sm:text-[18px] mt-[24px] lg:w-[780px] md:w-[420px] lg:leading-[50px] md:leading-[30px]">
             Phoenix’s robust publishing platform pushes the boundaries of
             writing online. As a secured and open-source writing platform, it
             helps iilluminate your web3 journey with stories and experiences.
