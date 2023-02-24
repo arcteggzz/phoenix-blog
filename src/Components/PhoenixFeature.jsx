@@ -8,17 +8,15 @@ const PhoenixFeature = ({ features }) => {
   return (
     <>
       <div
-        className={`text-center lg:px-[112px] md:px-[80px] sm:px-[24px] lg:py-[80px] md:py-[60px] sm:py-[72px] flex sm:flex-col-reverse sm:gap-[40px] md:justify-between sm:text-center md:gap-[126px] ${
+        className={`w-full text-center lg:px-[112px] md:px-[80px] sm:px-[24px] lg:py-[80px] md:py-[60px] sm:py-[72px] flex sm:flex-col-reverse sm:gap-[40px] md:justify-between sm:text-center md:gap-[126px] ${
           features.order ? `md:flex-row-reverse` : `md:flex-row`
         }`}
       >
-        <div className="flex justify-center">
-          <img
-            src={features.image}
-            alt=""
-            className="lg:w-[40vw] md:w-[40vw] sm:w-[75vw] h-auto"
-          />
-        </div>
+        <img
+          src={features.image}
+          alt=""
+          className="lg:w-[40vw] md:w-[40vw] sm:w-[75vw] h-auto"
+        />
 
         <section className="md:text-left sm:text-center">
           <h2
