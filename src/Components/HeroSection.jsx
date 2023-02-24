@@ -23,7 +23,7 @@ const HeroSection = () => {
             writing online. As a secured and open-source writing platform, it
             helps iilluminate your web3 journey with stories and experiences.
           </h2>
-          <button className="md:px-[56px] sm:px-[28px] md:py-[22px] sm:py-[14px] bg-primary rounded-[8px] text-bgWhite mt-[40px] font-bold font-ptSans">
+          <button className="md:px-[56px] sm:px-[28px] md:py-[22px] sm:py-[14px] bg-primary rounded-[8px] text-bgWhite text-[24px] mt-[40px] font-bold font-ptSans">
             Get Started
           </button>
         </section>
