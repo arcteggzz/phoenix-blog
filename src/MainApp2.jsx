@@ -18,7 +18,7 @@ const MainApp = () => {
       order: 0,
       headerText: "Gain Access to Top Web3 Articles",
       paragraphText:
-        "Get the chance to save the writings of your favorite writers, sign up for their newsletters, and follow other individuals who share your interests. Personalize your feeds, collaborate with friends onmaterial, and learn more about various topics.",
+        "Get the chance to save the writings of your favorite writers, sign up for their newsletters, and follow other individuals who share your interests. Personalize your feeds, collaborate with friends on material, and learn more about various topics.",
       buttonText: "Read Articles",
       image: features1,
     },
