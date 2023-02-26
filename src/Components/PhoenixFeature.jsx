@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 
 import { ThemeContext } from "../App";
 
-const PhoenixFeature = ({ features }) => {
+const PhoenixFeature = ({ features, textwidth }) => {
   const theme = useContext(ThemeContext);
 
   return (
@@ -27,8 +27,12 @@ const PhoenixFeature = ({ features }) => {
             {features.headerText}
           </h2>
           <h3
-            className={`text-subtleGrey font-normal font-ptSans lg:text-[18px] md:text-[16px] sm:text-[16px] mt-[24px] lg:w-[475px] md:w-[300px] lg:leading-[31px] md:leading-[24px] ${
+            className={`text-subtleGrey font-normal font-ptSans lg:text-[18px] md:text-[16px] sm:text-[16px] mt-[24px] lg:leading-[31px] md:leading-[24px] ${
               theme === "dark" ? `text-bgWhite` : `text-lighterGrey`
+            } ${
+              textwidth
+                ? `lg:w-[450px] md:w-[300px]`
+                : `lg:w-[475px] md:w-[300px]`
             }`}
           >
             {features.paragraphText}

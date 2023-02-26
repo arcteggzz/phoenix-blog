@@ -54,7 +54,7 @@ const MainApp = () => {
         </div>
         <div className="flex flex-col w-full items-center justify-center">
           <PhoenixFeature features={featuresData[0]} />
-          <PhoenixFeature features={featuresData[1]} />
+          <PhoenixFeature features={featuresData[1]} textwidth={450} />
           <PhoenixFeature features={featuresData[2]} />
         </div>
         <ContactUs />
