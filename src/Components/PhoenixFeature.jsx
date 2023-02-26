@@ -26,7 +26,11 @@ const PhoenixFeature = ({ features }) => {
           >
             {features.headerText}
           </h2>
-          <h3 className="text-subtleGrey font-normal font-ptSans lg:text-[18px] md:text-[16px] sm:text-[16px] mt-[24px] lg:w-[500px] md:w-[300px] lg:leading-[31px] md:leading-[24px]">
+          <h3
+            className={`text-subtleGrey font-normal font-ptSans lg:text-[18px] md:text-[16px] sm:text-[16px] mt-[24px] lg:w-[475px] md:w-[300px] lg:leading-[31px] md:leading-[24px] ${
+              theme === "dark" ? `text-bgWhite` : `text-lighterGrey`
+            }`}
+          >
             {features.paragraphText}
           </h3>
           <button className="md:px-[24px] sm:px-[16px] md:py-[12px] sm:py-[8px] bg-[rgba(247,91,49,0.25)] rounded-[8px] text-primary mt-[40px] font-bold font-ptSans border-2 border-primary">
