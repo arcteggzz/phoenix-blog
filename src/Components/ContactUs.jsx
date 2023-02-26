@@ -8,7 +8,9 @@ const ContactUs = () => {
     <>
       <div
         className={`flex flex-col items-center lg:px-[112px] md:px-[80px] sm:px-[24px] lg:py-[120px] md:py-[80px] sm:py-[80px] lg:mt-[100px] sm:mt-[80px] text-center ${
-          theme === "dark" ? `border-t-[1px] border-t-[#80868E]` : ``
+          theme === "dark"
+            ? `border-y-[1px] border-y-[#181919]`
+            : `border-y-[1px] border-y-[#F3F3F3]`
         }`}
       >
         <h2

@@ -59,6 +59,15 @@ const MainApp = () => {
         </div>
         <ContactUs />
         <Footer />
+        <p
+          className={`text-[18px] font-normal p-[18px] mt-[43px] text-center ${
+            theme === "dark"
+              ? `text-bgWhite border-t-[1px] border-t-[#181919]`
+              : `text-lighterGrey border-t-[1px] border-t-[#F3F3F3]`
+          }`}
+        >
+          2022 Phoenix web3 blog
+        </p>
       </div>
     </>
   );

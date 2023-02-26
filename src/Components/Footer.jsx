@@ -83,13 +83,6 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <p
-          className={`text-[18px] font-normal p-[18px] ${
-            theme === "dark" ? `text-bgWhite` : `text-lighterGrey`
-          }`}
-        >
-          2022 Phoenix web3 blog
-        </p>
       </div>
     </>
   );
