@@ -77,32 +77,57 @@ const NavBar = () => {
           {/* mobile navigation */}
           {navOpen ? (
             <div
-              className={`lg:hidden md:hidden sm:flex sm:flex-col sm:absolute sm:top-0 sm:left-0 sm:h-screen sm:w-screen transition-transform duration-500 ease-in ${
-                theme === "dark" ? `sm:bg-bgDark` : `sm:bg-bgWhite`
+              className={`lg:hidden md:hidden sm:block sm:absolute sm:top-0 sm:right-0 sm:h-screen sm:w-screen backdrop-blur-[2px] ${
+                theme === "dark"
+                  ? `sm:bg-[#000D1D]/[.12]`
+                  : `sm:bg-[#FFFFFF]/[.12]`
               }`}
             >
               <div
-                className="w-screen flex justify-end px-[24px] h-[72px] items-center"
-                onClick={() => setNavOpen(false)}
+                className={`sm:flex sm:flex-col sm:absolute sm:top-0 sm:right-0 sm:h-screen sm:w-[80vw] z-10 ${
+                  theme === "dark" ? `sm:bg-bgDark` : `sm:bg-bgWhite`
+                }`}
               >
-                <img
-                  src={theme === "dark" ? closeDark : closeLight}
-                  alt="hamburger-menu"
-                />
-              </div>
-              <div className="lg:hidden md:hidden sm:flex sm:flex-col sm:items-center sm:justify-center sm:h-full sm:gap-12">
-                <p className="text-primary font-bold text-[18px] cursor-pointer">
-                  Home
-                </p>
-                <p className="text-subtleGrey font-normal text-[18px] cursor-pointer">
-                  About
-                </p>
-                <p className="text-subtleGrey font-normal text-[18px] cursor-pointer">
-                  Blog
-                </p>
-                <p className="text-subtleGrey font-normal text-[18px] cursor-pointer">
-                  Contact
-                </p>
+                <div
+                  className="w-full flex justify-end px-[24px] h-[72px] items-center"
+                  onClick={() => setNavOpen(false)}
+                >
+                  <img
+                    src={theme === "dark" ? closeDark : closeLight}
+                    alt="hamburger-menu"
+                  />
+                </div>
+                <div className="lg:hidden md:hidden sm:flex sm:flex-col sm:items-center sm:justify-center sm:h-full sm:gap-12">
+                  <p className="text-primary font-bold text-[18px] cursor-pointer">
+                    Home
+                  </p>
+                  <p
+                    className={`font-normal text-[18px] cursor-pointer ${
+                      theme === "dark" ? `text-bgWhite` : `text-bgDark`
+                    }`}
+                  >
+                    About
+                  </p>
+                  <p
+                    className={`font-normal text-[18px] cursor-pointer ${
+                      theme === "dark" ? `text-bgWhite` : `text-bgDark`
+                    }`}
+                  >
+                    Blog
+                  </p>
+                  <p
+                    className={`font-normal text-[18px] cursor-pointer ${
+                      theme === "dark" ? `text-bgWhite` : `text-bgDark`
+                    }`}
+                  >
+                    Contact
+                  </p>
+                  <button
+                    className={`px-[24px] py-[12px] bg-[rgba(247,91,49,0.25)] rounded-[8px] text-primary`}
+                  >
+                    Sign Up
+                  </button>
+                </div>
               </div>
             </div>
           ) : (
